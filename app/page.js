@@ -16,10 +16,8 @@ export default function Home() {
           <ProfileCard />
           <Skills />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ProjectSearch />
           <GlobalSearch />
-        </div>
       </div>
     </main>
   );

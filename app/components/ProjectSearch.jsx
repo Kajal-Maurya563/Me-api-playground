@@ -19,7 +19,7 @@ export default function ProjectSearch() {
 
             <div className="flex flex-col sm:flex-row gap-3 mt-3">
                 <input
-                    className="border rounded px-3 py-2 flex-1"
+                    className="border rounded px-3 py-2 flex-1 text-black placeholder-gray-400"
                     placeholder="Enter skill (e.g. python)"
                     value={skill}
                     onChange={(e) => setSkill(e.target.value)}
